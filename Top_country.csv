@@ -2,13 +2,13 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 1.,China,286258959.81,8537,Dota 2,83765144.95,29.26
 2.,United States of America,265684180.42,26559,Fortnite,47153196.49,17.75
 3.,Korea Republic of Korea,139712040.76,5652,League of Legends,36018043.83,25.78
-4.,Russian,80177905.89,5235,Dota 2,35472036.28,44.24
-5.,Brazil Brazil,58599618.89,5086,Counter-Strike: Global Offensive,11928646.38,20.36
+4.,Russia,80177905.89,5235,Dota 2,35472036.28,44.24
+5.,Brazil,58599618.89,5086,Counter-Strike: Global Offensive,11928646.38,20.36
 6.,Denmark,57722533.74,2049,Counter-Strike: Global Offensive,23071204.76,39.97
 7.,Sweden,52994561.48,3169,Dota 2,16992860.91,32.07
 8.,France,52606315.69,5949,Counter-Strike: Global Offensive,9825144.03,18.68
 9.,Germany,47116682.56,6339,Dota 2,10945148.66,23.23
-10.,anada,46285957.82,3982,Fortnite,8376414.37,18.10
+10.,Canada,46285957.82,3982,Fortnite,8376414.37,18.10
 11.,United Kingdom,43048558.60,5054,Fortnite,8058946.86,18.72
 12.,Japan,35207512.23,3497,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,5448159.27,15.47
 13.,Ukraine,34820168.77,1529,Dota 2,21736493.32,62.43
@@ -16,12 +16,12 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 15.,Australia,29302534.36,3921,Dota 2,8035912.41,27.42
 16.,Thailand,27911955.03,2120,Arena of Valor,6890839.34,24.69
 17.,Poland,27307291.69,2802,Counter-Strike: Global Offensive,8369552.20,30.65
-18.,Taiwan Republic of China,20992048.11,1631,League of Legends,5540006.67,26.39
+18.,Taiwan,20992048.11,1631,League of Legends,5540006.67,26.39
 19.,Philippines,20549663.42,1780,Dota 2,11358338.56,55.27
 20.,Malaysia,19741758.49,1619,Dota 2,13765572.27,69.73
 21.,Indonesia,17396618.68,2490,Free Fire,3938676.21,22.64
 22.,Netherlands,16540947.19,2051,Fortnite,3436303.52,20.77
-23.,Viet Nam,16204158.96,2419,Arena of Valor,4769259.47,29.43
+23.,Vietnam,16204158.96,2419,Arena of Valor,4769259.47,29.43
 24.,Norway,12884444.53,1313,Fortnite,3258714.04,25.29
 25.,Saudi Arabia,12853619.69,987,Rainbow Six Siege,2409577.05,18.75
 26.,Spain,12654882.39,2562,Counter-Strike: Global Offensive,1410344.76,11.14
@@ -48,7 +48,7 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 47.,Portugal,4360312.42,1109,Counter-Strike: Global Offensive,981894.68,22.52
 48.,Belarus,4146273.89,382,Dota 2,1785254.69,43.06
 49.,Mongolia,3767150.26,289,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,2529841.17,67.16
-50.,North Macedonia,3696696.94,89,Dota 2,3165338.85,85.63
+50.,Macedonia,3696696.94,89,Dota 2,3165338.85,85.63
 51.,Serbia,3629401.37,402,Fortnite,1653489.56,45.56
 52.,Switzerland,3033353.31,683,Fortnite,1764136.89,58.16
 53.,Chile,2971722.50,839,VALORANT,642258.21,21.61
@@ -69,7 +69,7 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 68.,Colombia,1303678.17,387,Free Fire,202374.07,15.52
 69.,Ireland,1285823.11,326,Fortnite,254085.98,19.76
 70.,Morocco,1145615.10,188,Rocket League,337495.67,29.46
-71.,Republic of Moldova,1093554.98,54,Dota 2,709202.21,64.85
+71.,Moldova,1093554.98,54,Dota 2,709202.21,64.85
 72.,Dominican Republic,1063772.63,124,Street Fighter V,268835.20,25.27
 73.,Myanmar,1052888.38,248,Mobile Legends: Bang Bang,416890.60,39.59
 74.,Puerto Rico,1005484.82,135,NBA 2K20,250000.00,24.86
@@ -79,14 +79,14 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 78.,Armenia,732642.16,47,chess24,244319.30,33.35
 79.,Cambodia,697485.80,228,Mobile Legends: Bang Bang,342772.65,49.14
 80.,Uzbekistan,693064.23,103,Counter-Strike: Global Offensive,338632.32,48.86
-81.,Iran Islamic Republic of,688702.05,157,Chess.com,218376.02,31.71
+81.,Iran,688702.05,157,Chess.com,218376.02,31.71
 82.,Kuwait,670612.76,178,Rainbow Six Siege,186065.93,27.75
 83.,Algeria,656600.45,114,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,230673.68,35.13
 84.,Azerbaijan,633473.23,110,chess24,295261.50,46.61
 85.,Georgia,621804.91,116,PLAYERUNKNOWN’S BATTLEGROUNDS,344693.10,55.43
 86.,Cuba,576630.39,49,Fortnite,204716.67,35.50
 87.,Syrian Arab Republic,533251.49,61,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,275653.28,51.69
-88.,Republic of Kosovo,459553.84,63,Counter-Strike: Global Offensive,371033.68,80.74
+88.,Kosovo,459553.84,63,Counter-Strike: Global Offensive,371033.68,80.74
 89.,Bahrain,454040.70,40,Fortnite,289090.00,63.67
 90.,Montenegro,429104.08,18,Counter-Strike: Global Offensive,386439.86,90.06
 91.,Venezuela,411687.15,181,League of Legends,60432.38,14.68
@@ -104,14 +104,14 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 103.,Nicaragua,128288.18,12,Dota 2,45596.78,35.54
 104.,Gibraltar,127329.51,1,PLAYERUNKNOWN’S BATTLEGROUNDS,126204.51,99.12
 105.,Panama,112059.53,59,Fortnite,63390.00,56.57
-106.,Brunei Darussalam,109094.30,215,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,59118.95,54.19
+106.,Brunei,109094.30,215,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,59118.95,54.19
 107.,Luxembourg,107719.93,43,Fortnite,40333.20,37.44
 108.,Senegal,100091.84,9,FIFA 21,40000.00,39.96
 109.,Honduras,91876.45,27,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,66064.54,71.91
 110.,Qatar,89370.72,51,Fortnite,17375.00,19.44
 111.,Oman,88159.65,21,Fortnite,74730.00,84.77
 112.,Paraguay,66207.24,43,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,21111.66,31.89
-113.,Libyan Arab Jamahiriya,55341.32,8,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,49366.71,89.20
+113.,Libya,55341.32,8,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,49366.71,89.20
 114.,Yemen,40396.12,9,Fortnite,13375.00,33.11
 115.,Sri Lanka,32526.34,29,Vainglory,11010.97,33.85
 116.,Cameroon,27636.45,1,Street Fighter 6,5910.80,21.39
@@ -127,7 +127,7 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 126.,Faroe Islands,9560.61,26,Counter-Strike: Global Offensive,9296.06,97.23
 127.,Guadeloupe,8888.64,1,FIFA 18,8330.00,93.72
 128.,Mauritius,8690.00,22,Counter-Strike: Global Offensive,5185.71,59.67
-129.,Côte D'Ivoire,7536.90,6,Tekken 7,7200.00,95.53
+129.,Ivory Coast,7536.90,6,Tekken 7,7200.00,95.53
 130.,Guyana,7450.00,2,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,6750.00,90.60
 131.,Fiji,5801.67,1,Fortnite,5801.67,100.00
 132.,Netherlands Antilles,5700.00,1,Overwatch 2,5700.00,100.00
@@ -137,7 +137,7 @@ Position,Country,Gain_Earn,Players,Favo_Game,Earn_Fgame,Proportion
 136.,United Republic of Tanzania,4500.00,1,Magic: The Gathering Arena,4500.00,100.00
 137.,Zimbabwe,4360.00,2,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,4260.00,97.71
 138.,Jersey,3736.77,4,Echo Arena,3453.33,92.41
-139.,Åland Islands,3547.38,18,Heroes of Newerth,2737.38,77.17
+139.,Aland Islands,3547.38,18,Heroes of Newerth,2737.38,77.17
 140.,Tajikistan,3475.00,1,PLAYERUNKNOWN'S BATTLEGROUNDS Mobile,3475.00,100.00
 141.,New Caledonia,3437.97,4,Shadowverse,3300.00,95.99
 142.,Guernsey,2920.11,1,Rocket League,2920.11,100.00
