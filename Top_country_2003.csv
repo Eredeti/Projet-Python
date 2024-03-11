@@ -1,44 +1,45 @@
-1.	Sweden Sweden	$397,386.92	108 Players
-2.	Korea, Republic of Korea, Republic of	$333,406.37	98 Players
-3.	United States United States	$274,974.26	192 Players
-4.	Germany Germany	$240,014.77	67 Players
-5.	Norway Norway	$73,150.51	8 Players
-6.	Russian Federation Russian Federation	$62,371.14	109 Players
-7.	Taiwan, Republic of China Taiwan, Republic of China	$50,273.98	6 Players
-8.	France France	$46,654.67	33 Players
-9.	Netherlands Netherlands	$43,592.42	15 Players
-10.	United Kingdom United Kingdom	$40,658.36	25 Players
-11.	Bulgaria Bulgaria	$37,558.38	7 Players
-12.	China China	$33,150.00	21 Players
-13.	Spain Spain	$30,102.92	29 Players
-14.	Canada Canada	$28,991.71	16 Players
-15.	Denmark Denmark	$25,393.92	31 Players
-16.	Italy Italy	$23,892.18	4 Players
-17.	Finland Finland	$16,002.51	18 Players
-18.	Austria Austria	$15,658.35	6 Players
-19.	Brazil Brazil	$14,375.50	16 Players
-20.	Kazakhstan Kazakhstan	$13,380.00	15 Players
-21.	Poland Poland	$10,830.38	10 Players
-22.	Czech Republic Czech Republic	$8,414.53	18 Players
-23.	Ukraine Ukraine	$7,494.05	44 Players
-24.	Romania Romania	$5,287.18	1 Player
-25.	Japan Japan	$5,057.21	14 Players
-26.	Australia Australia	$5,030.00	2 Players
-27.	United Arab Emirates United Arab Emirates	$5,000.00	4 Players
-28.	Argentina Argentina	$4,150.00	2 Players
-29.	Singapore Singapore	$3,024.92	7 Players
-30.	Belarus Belarus	$2,869.55	22 Players
-31.	Serbia Serbia	$2,300.00	1 Player
-32.	Belgium Belgium	$1,507.14	3 Players
-33.	Iceland Iceland	$1,500.00	5 Players
-34.	Lithuania Lithuania	$1,400.00	1 Player
-35.	Hong Kong Hong Kong	$1,195.36	1 Player
-36.	Israel Israel	$650.00	1 Player
-37.	Greece Greece	$431.00	1 Player
-38.	Hungary Hungary	$368.22	1 Player
-39.	Viet Nam Viet Nam	$327.77	1 Player
-40.	Croatia Croatia	$240.62	1 Player
-41.	Portugal Portugal	$210.00	1 Player
-42.	Ireland Ireland	$100.02	1 Player
-43.	Mexico Mexico	$100.00	1 Player
-44.	Estonia Estonia	$50.00	1 Player
+Position,Country,Gain_Earn,Players
+1.,Sweden Sweden,397386.92,108
+2.,Korea Republic of Korea Republic of,333406.37,98
+3.,United States United States,274974.26,192
+4.,Germany Germany,240014.77,67
+5.,Norway Norway,73150.51,8
+6.,Russian Federation Russian Federation,62371.14,109
+7.,Taiwan Republic of China Taiwan Republic of China,50273.98,6
+8.,France France,46654.67,33
+9.,Netherlands Netherlands,43592.42,15
+10.,United Kingdom United Kingdom,40658.36,25
+11.,Bulgaria Bulgaria,37558.38,7
+12.,China China,33150.00,21
+13.,Spain Spain,30102.92,29
+14.,Canada Canada,28991.71,16
+15.,Denmark Denmark,25393.92,31
+16.,Italy Italy,23892.18,4
+17.,Finland Finland,16002.51,18
+18.,Austria Austria,15658.35,6
+19.,Brazil Brazil,14375.50,16
+20.,Kazakhstan Kazakhstan,13380.00,15
+21.,Poland Poland,10830.38,10
+22.,Czech Republic Czech Republic,8414.53,18
+23.,Ukraine Ukraine,7494.05,44
+24.,Romania Romania,5287.18,1
+25.,Japan Japan,5057.21,14
+26.,Australia Australia,5030.00,2
+27.,United Arab Emirates United Arab Emirates,5000.00,4
+28.,Argentina Argentina,4150.00,2
+29.,Singapore Singapore,3024.92,7
+30.,Belarus Belarus,2869.55,22
+31.,Serbia Serbia,2300.00,1
+32.,Belgium Belgium,1507.14,3
+33.,Iceland Iceland,1500.00,5
+34.,Lithuania Lithuania,1400.00,1
+35.,Hong Kong Hong Kong,1195.36,1
+36.,Israel Israel,650.00,1
+37.,Greece Greece,431.00,1
+38.,Hungary Hungary,368.22,1
+39.,Viet Nam Viet Nam,327.77,1
+40.,Croatia Croatia,240.62,1
+41.,Portugal Portugal,210.00,1
+42.,Ireland Ireland,100.02,1
+43.,Mexico Mexico,100.00,1
+44.,Estonia Estonia,50.00,1
