@@ -1,104 +1,104 @@
 Position,Country,Gain_Earn,Players
-1.China China14964386.55765
-2.United States United States13220422.732767
-3.Korea Republic of Korea Republic of6714901.04617
-4.Sweden Sweden4020207.42523
-5.Canada Canada3726197.01457
-6.Denmark Denmark2266523.69287
-7.Russian Federation Russian Federation2131631.60676
-8.Ukraine Ukraine2039016.81169
-9.Pakistan Pakistan1731607.742
-10.Germany Germany1728229.63742
-11.France France1452827.12574
-12.United Kingdom United Kingdom1005481.19575
-13.Poland Poland954426.67361
-14.Singapore Singapore861627.31121
-15.Taiwan Republic of China Taiwan Republic of China680553.66104
-16.Japan Japan617881.36179
-17.Brazil Brazil559948.84504
-18.Malaysia Malaysia514344.84128
-19.Australia Australia507672.81326
-20.Estonia Estonia479092.3646
-21.Belarus Belarus468623.0439
-22.Thailand Thailand467952.88194
-23.Netherlands Netherlands457800.03207
-24.Romania Romania374350.9175
-25.Finland Finland358570.54236
-26.Spain Spain356999.66308
-27.Philippines Philippines336329.36113
-28.Macao Macao318852.021
-29.Israel Israel306483.0025
-30.Viet Nam Viet Nam285329.45146
-31.Norway Norway270158.73132
-32.Jordan Jordan254906.8716
-33.Bulgaria Bulgaria168941.7398
-34.Portugal Portugal152557.34132
-35.Slovakia Slovakia132579.5248
-36.Belgium Belgium118277.4682
-37.Mexico Mexico114920.9349
-38.Greece Greece112868.3396
-39.Chile Chile109471.7352
-40.Hong Kong Hong Kong103969.0349
-41.Peru Peru93616.6936
-42.Czech Republic Czech Republic89037.31113
-43.Argentina Argentina88460.3898
-44.Italy Italy76764.5879
-45.Kazakhstan Kazakhstan65086.2849
-46.Serbia Serbia64830.5881
-47.Indonesia Indonesia63772.2955
-48.Saudi Arabia Saudi Arabia60388.077
-49.Turkey Turkey58036.6178
-50.Hungary Hungary49990.43103
-51.Slovenia Slovenia45793.6722
-52.Croatia Croatia38246.9831
-53.New Zealand New Zealand38203.2627
-54.South Africa South Africa36129.83170
-55.Switzerland Switzerland30116.4038
-56.Venezuela Venezuela29258.4513
-57.Bosnia and Herzegovina Bosnia and Herzegovina27183.4516
-58.Austria Austria24828.0446
-59.Ireland Ireland22929.7127
-60.Moldova Republic of Moldova Republic of21612.815
-61.North Macedonia North Macedonia19974.494
-62.Kuwait Kuwait18134.1411
-63.Iraq Iraq15031.985
-64.Puerto Rico Puerto Rico11369.506
-65.Sri Lanka Sri Lanka10572.471
-66.India India10420.5275
-67.Lithuania Lithuania9569.8849
-68.Latvia Latvia8092.4837
-69.Lebanon Lebanon7858.457
-70.Colombia Colombia7309.386
-71.Bolivia Bolivia6535.162
-72.Afghanistan Afghanistan6126.511
-73.United Arab Emirates United Arab Emirates5935.7415
-74.Algeria Algeria5915.706
-75.Malta Malta5370.2850
-76.Iceland Iceland4992.9325
-77.Kyrgyzstan Kyrgyzstan4522.3910
-78.Cuba Cuba3194.903
-79.Uruguay Uruguay3012.012
-80.Azerbaijan Azerbaijan2985.358
-81.Mongolia Mongolia2852.568
-82.Nicaragua Nicaragua2584.551
-83.Georgia Georgia1613.612
-84.Iran Islamic Republic of Iran Islamic Republic of1394.006
-85.Morocco Morocco1309.416
-86.Bahrain Bahrain1289.101
-87.Tunisia Tunisia785.947
-88.Armenia Armenia596.443
-89.Brunei Darussalam Brunei Darussalam495.905
-90.Egypt Egypt444.536
-91.Dominican Republic Dominican Republic275.601
-92.Lao People's Democratic Republic Lao People's Democratic Republic140.551
-93.Albania Albania137.561
-94.Luxembourg Luxembourg108.172
-95.Cyprus Cyprus107.211
-96.Montenegro Montenegro100.011
-97.Uzbekistan Uzbekistan59.172
-98.Faroe Islands Faroe Islands54.011
-99.Panama Panama47.501
-100.Ecuador Ecuador37.501
-101.Jamaica Jamaica30.001
-102.Liechtenstein Liechtenstein28.471
-103.Maldives Maldives0.001
+1.,China China,14964386.55,765
+2.,United States United States,13220422.73,2767
+3.,Korea Republic of Korea Republic of,6714901.04,617
+4.,Sweden Sweden,4020207.42,523
+5.,Canada Canada,3726197.01,457
+6.,Denmark Denmark,2266523.69,287
+7.,Russian Federation Russian Federation,2131631.60,676
+8.,Ukraine Ukraine,2039016.81,169
+9.,Pakistan Pakistan,1731607.74,2
+10.,Germany Germany,1728229.63,742
+11.,France France,1452827.12,574
+12.,United Kingdom United Kingdom,1005481.19,575
+13.,Poland Poland,954426.67,361
+14.,Singapore Singapore,861627.31,121
+15.,Taiwan Republic of China Taiwan Republic of China,680553.66,104
+16.,Japan Japan,617881.36,179
+17.,Brazil Brazil,559948.84,504
+18.,Malaysia Malaysia,514344.84,128
+19.,Australia Australia,507672.81,326
+20.,Estonia Estonia,479092.36,46
+21.,Belarus Belarus,468623.04,39
+22.,Thailand Thailand,467952.88,194
+23.,Netherlands Netherlands,457800.03,207
+24.,Romania Romania,374350.91,75
+25.,Finland Finland,358570.54,236
+26.,Spain Spain,356999.66,308
+27.,Philippines Philippines,336329.36,113
+28.,Macao Macao,318852.02,1
+29.,Israel Israel,306483.00,25
+30.,Viet Nam Viet Nam,285329.45,146
+31.,Norway Norway,270158.73,132
+32.,Jordan Jordan,254906.87,16
+33.,Bulgaria Bulgaria,168941.73,98
+34.,Portugal Portugal,152557.34,132
+35.,Slovakia Slovakia,132579.52,48
+36.,Belgium Belgium,118277.46,82
+37.,Mexico Mexico,114920.93,49
+38.,Greece Greece,112868.33,96
+39.,Chile Chile,109471.73,52
+40.,Hong Kong Hong Kong,103969.03,49
+41.,Peru Peru,93616.69,36
+42.,Czech Republic Czech Republic,89037.31,113
+43.,Argentina Argentina,88460.38,98
+44.,Italy Italy,76764.58,79
+45.,Kazakhstan Kazakhstan,65086.28,49
+46.,Serbia Serbia,64830.58,81
+47.,Indonesia Indonesia,63772.29,55
+48.,Saudi Arabia Saudi Arabia,60388.07,7
+49.,Turkey Turkey,58036.61,78
+50.,Hungary Hungary,49990.43,103
+51.,Slovenia Slovenia,45793.67,22
+52.,Croatia Croatia,38246.98,31
+53.,New Zealand New Zealand,38203.26,27
+54.,South Africa South Africa,36129.83,170
+55.,Switzerland Switzerland,30116.40,38
+56.,Venezuela Venezuela,29258.45,13
+57.,Bosnia and Herzegovina Bosnia and Herzegovina,27183.45,16
+58.,Austria Austria,24828.04,46
+59.,Ireland Ireland,22929.71,27
+60.,Moldova Republic of Moldova Republic of,21612.81,5
+61.,North Macedonia North Macedonia,19974.49,4
+62.,Kuwait Kuwait,18134.14,11
+63.,Iraq Iraq,15031.98,5
+64.,Puerto Rico Puerto Rico,11369.50,6
+65.,Sri Lanka Sri Lanka,10572.47,1
+66.,India India,10420.52,75
+67.,Lithuania Lithuania,9569.88,49
+68.,Latvia Latvia,8092.48,37
+69.,Lebanon Lebanon,7858.45,7
+70.,Colombia Colombia,7309.38,6
+71.,Bolivia Bolivia,6535.16,2
+72.,Afghanistan Afghanistan,6126.51,1
+73.,United Arab Emirates United Arab Emirates,5935.74,15
+74.,Algeria Algeria,5915.70,6
+75.,Malta Malta,5370.28,50
+76.,Iceland Iceland,4992.93,25
+77.,Kyrgyzstan Kyrgyzstan,4522.39,10
+78.,Cuba Cuba,3194.90,3
+79.,Uruguay Uruguay,3012.01,2
+80.,Azerbaijan Azerbaijan,2985.35,8
+81.,Mongolia Mongolia,2852.56,8
+82.,Nicaragua Nicaragua,2584.55,1
+83.,Georgia Georgia,1613.61,2
+84.,Iran Islamic Republic of Iran Islamic Republic of,1394.00,6
+85.,Morocco Morocco,1309.41,6
+86.,Bahrain Bahrain,1289.10,1
+87.,Tunisia Tunisia,785.94,7
+88.,Armenia Armenia,596.44,3
+89.,Brunei Darussalam Brunei Darussalam,495.90,5
+90.,Egypt Egypt,444.53,6
+91.,Dominican Republic Dominican Republic,275.60,1
+92.,Lao People's Democratic Republic Lao People's Democratic Republic,140.55,1
+93.,Albania Albania,137.56,1
+94.,Luxembourg Luxembourg,108.17,2
+95.,Cyprus Cyprus,107.21,1
+96.,Montenegro Montenegro,100.01,1
+97.,Uzbekistan Uzbekistan,59.17,2
+98.,Faroe Islands Faroe Islands,54.01,1
+99.,Panama Panama,47.50,1
+100.,Ecuador Ecuador,37.50,1
+101.,Jamaica Jamaica,30.00,1
+102.,Liechtenstein Liechtenstein,28.47,1
+103.,Maldives Maldives,0.00,1
