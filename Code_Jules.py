@@ -1,54 +1,84 @@
-import requests
 import folium
+import requests
+import csv
+import json
 
-class Visualise:
-    url_coor = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/world_countries.json'
-    coordonnees = []  # Variable de classe pour stocker les coordonnées
+class Region:
     
+    def __init__(self, pays):
+        self.pays = pays
+        self.data = self.get_data()      # Appeler toutes les informations du fichier json
+        self.coos = self.get_coos()      # Prendre la liste de coordoonnées dans le fichier json
+        self.forme = self.get_forme()     # Polygon ou Multipolygon dans le fichier json
+
+        def get_data(self): #
+            response = requests.get(Visualise.url_json)
+            data = response.json()
+            return data
+
+        def get_forme(self):
+            for infos in self.data['features']:
+                if self.pays == infos['properties']['name']:
+                    return infos['geometry']['type']
+            return None
+        
+        def get_coos(self):
+            for feature in self.data['features']:
+                if pays in feature['properties']['name']:     # Vérifier si le nom du pays correspond à celui recherché
+                    coordonnees = feature['geometry']['coordinates']       # Extraire les coordonnées géographiques  
+                    coord=[]
+
+                    if self.forme == "Polygon": # Pour retirer une liste inutile
+                        coor = coordonnees[0]
+                        for i in range (len(coor)):
+                            longi, latit = coor[i]
+                            coord.append((latit, longi))
+
+                    else :
+                        for coo1 in coordonnees:
+                            for coo2 in coo1:
+                                for i in range (len(coo2)):
+                                    longi, latit = coo2[i]
+                                    coord.append((latit, longi)) 
+                return coord
+            return None
+
+class Pays:
+    
+    def __init__(self, annee, pays):
+        
+        self.taille = self.get_taille()  # pour connaitre le nb de lignes dans le fichier csv, prend en compte aussi le titre
+        self.forme = Region(self.pays).forme
+        self.coord = Region(self.pays).coos
+        self.annee = annee
+        
+        self.ratio =     # Parcourir le fichier csv selon le self.pays
+        self.pays = pays
+        
+        self.class =     # Avoir la liste des 10 premiers pour les marqueurs
+        self.top =     # Avoir le premier du self.ratio
+        
+        self.nbr = 
+
+        
+        def get_taille(self): # pour connaitre le nombre de pays
+            response = requests.get(Visualisation.url_csv)
+            lines = response.text.splitlines()  # Utilisation de splitlines() pour diviser les lignes
+            return len(list(lines))
+
+        
+class Visualisation:    
     cord_y = -20
     cord_x = 55
+    zoom = 1
     
-    def __init__(self):
-        self.coor = self.get_coordinates()
-        self.carte = self.get_carte()
+    def __init__(self, annee):
+        self.annee = annee
         
-    def get_coordinates(self):
-        response = requests.get(self.url_coor)  # Correction ici, utiliser self.url_coor au lieu de url2
-        data = response.json() #Possibilité de le réduire en une seule ligne ???????
+        self.carte = folium.Map(location=[Visualisation.cord_y, Visualisation.cord_x], zoom_start=Visualisation.zoom)         
         
-        for coo in data['features']:
-            name = coo['properties']['name']
-            coordinates = coo['geometry']['coordinates']
-            self.coordonnees.append((name, coordinates))
-        return self.coordonnees
-    
-    def get_carte(self):
-        self.map = folium.Map(location=[Visualise.cord_y, Visualise.cord_x], zoom_start=1) # Le zoom en constante ?
-
-        for country, coordinates in self.coor:
-            name_country = self.get_name(country)
-            for polygon in coordinates:
-                vrai_coo = []
-                for faux_coo in polygon:
-                    if isinstance(faux_coo[0], list):  # Vérifier si c'est une liste de coordonnées
-                        for coord in faux_coo:
-                            longi, latit = coord
-                            vrai_coo.append((latit, longi))
-                    else:
-                        longi, latit = faux_coo
-                        vrai_coo.append((latit, longi))
-                folium.PolyLine(vrai_coo, color="red", fill_color="pink", fill_opacity=0.7, tooltip=name_country).add_to(self.map)
-
-        return self.map
-    
-    def get_name(self, country):
-        words = country.split()
-        half_length = len(words) // 2
-        first_half = " ".join(words[:half_length])  # Joindre la première moitié des mots
+        self.opacite = Pays().ratio/Pays().top
+        self.marqueur = 
         
-        return first_half 
-# Mettre une def pour diviser le nom en deux 
-
-visual = Visualise() 
-carte = visual.carte
-carte
+        self.url_csv = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/Top_country_{self.annee}.csv'
+        self.url_json = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/world_countries.json'
