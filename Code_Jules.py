@@ -17,14 +17,14 @@ class Region:
             return data
 
         def get_forme(self):
-            for infos in self.data['features']:
-                if self.pays == infos['properties']['name']:
-                    return infos['geometry']['type']
+            for feature in self.data['features']:
+                if self.pays in feature['properties']['name']:
+                    return feature['geometry']['type']
             return None
         
         def get_coos(self):
             for feature in self.data['features']:
-                if pays in feature['properties']['name']:     # Vérifier si le nom du pays correspond à celui recherché
+                if self.pays in feature['properties']['name']:     # Vérifier si le nom du pays correspond à celui recherché
                     coordonnees = feature['geometry']['coordinates']       # Extraire les coordonnées géographiques  
                     coord=[]
 
