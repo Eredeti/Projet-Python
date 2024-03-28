@@ -6,20 +6,22 @@ import json
 class Region:
     
     def __init__(self, pays):
+            
+        self.url_json = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/world_countries.json'
         self.pays = pays
         self.data = self.get_data()      # Appeler toutes les informations du fichier json
         self.coos = self.get_coos()      # Prendre la liste de coordoonnées dans le fichier json
         self.forme = self.get_forme()     # Polygon ou Multipolygon dans le fichier json
 
         def get_data(self): #
-            response = requests.get(Visualise.url_json)
+            response = requests.get(self.url_json)
             data = response.json()
             return data
 
         def get_forme(self):
-            for feature in self.data['features']:
-                if self.pays in feature['properties']['name']:
-                    return feature['geometry']['type']
+            for infos in self.data['features']:
+                if self.pays == infos['properties']['name']:
+                    return infos['geometry']['type']
             return None
         
         def get_coos(self):
@@ -47,6 +49,8 @@ class Pays:
     
     def __init__(self, annee, pays):
         
+        self.url_csv = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/Top_country_{self.annee}.csv'
+
         self.taille = self.get_taille()  # pour connaitre le nb de lignes dans le fichier csv, prend en compte aussi le titre
         self.forme = Region(self.pays).forme
         self.coord = Region(self.pays).coos
@@ -59,7 +63,7 @@ class Pays:
         self.top =     # Avoir le premier du self.ratio
         
         self.nbr = 
-
+        
         
         def get_taille(self): # pour connaitre le nombre de pays
             response = requests.get(Visualisation.url_csv)
@@ -80,5 +84,3 @@ class Visualisation:
         self.opacite = Pays().ratio/Pays().top
         self.marqueur = 
         
-        self.url_csv = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/Top_country_{self.annee}.csv'
-        self.url_json = 'https://raw.githubusercontent.com/Eredeti/Projet-Python/main/world_countries.json'
