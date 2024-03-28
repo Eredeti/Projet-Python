@@ -39,9 +39,12 @@ class Region:
                     else :
                         for coo1 in coordonnees:
                             for coo2 in coo1:
-                                for i in range (len(coo2)):
-                                    longi, latit = coo2[i]
-                                    coord.append((latit, longi)) 
+                                coor = []
+                                for coo3 in coo2:
+                                    longi, latit = coo3
+                                    coo4 = (latit,longi)
+                                    coor.append(coo4)
+                                coord.append(coor) 
                 return coord
             return None
 
